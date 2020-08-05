@@ -1,0 +1,17 @@
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\bin\Debug\netstandard2.0\HMS.Utility.deps.json
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\bin\Debug\netstandard2.0\HMS.Utility.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\bin\Debug\netstandard2.0\HMS.Utility.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.csproj.CoreCompileInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.AssemblyInfoInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.AssemblyInfo.cs
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.csprojAssemblyReference.cache
+E:\HMS\HMS\HMS.Utility\bin\Debug\netstandard2.0\HMS.Utility.deps.json
+E:\HMS\HMS\HMS.Utility\bin\Debug\netstandard2.0\HMS.Utility.dll
+E:\HMS\HMS\HMS.Utility\bin\Debug\netstandard2.0\HMS.Utility.pdb
+E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.csproj.CoreCompileInputs.cache
+E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.AssemblyInfoInputs.cache
+E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.AssemblyInfo.cs
+E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.dll
+E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.pdb

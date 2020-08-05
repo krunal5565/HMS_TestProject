@@ -1,0 +1,17 @@
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\bin\Debug\netstandard2.0\HMS.Notification.deps.json
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\bin\Debug\netstandard2.0\HMS.Notification.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\bin\Debug\netstandard2.0\HMS.Notification.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.csprojAssemblyReference.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.csproj.CoreCompileInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.AssemblyInfoInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.AssemblyInfo.cs
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.pdb
+E:\HMS\HMS\HMS.Notification\bin\Debug\netstandard2.0\HMS.Notification.deps.json
+E:\HMS\HMS\HMS.Notification\bin\Debug\netstandard2.0\HMS.Notification.dll
+E:\HMS\HMS\HMS.Notification\bin\Debug\netstandard2.0\HMS.Notification.pdb
+E:\HMS\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.csproj.CoreCompileInputs.cache
+E:\HMS\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.AssemblyInfoInputs.cache
+E:\HMS\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.AssemblyInfo.cs
+E:\HMS\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.dll
+E:\HMS\HMS\HMS.Notification\obj\Debug\netstandard2.0\HMS.Notification.pdb

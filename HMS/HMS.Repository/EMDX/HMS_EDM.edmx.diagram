@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="7bccd1b78f8e4f6ca728206cda32886a" Name="Diagram1">
+        <EntityTypeShape EntityType="HMSModel.BedTypeMaster" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSModel.CompanyMaster" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSModel.RoomTypeMaster" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSModel.UserActiveSession" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSModel.UserLogin" Width="1.5" PointX="5.25" PointY="14" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSModel.UserMaster" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="HMSModel.UserSessionHistory" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="HMSModel.FK_BedTypeMaster_CompanyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSModel.FK_RoomTypeMaster_CompanyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSModel.FK_UserMaster_CompanyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSModel.FK_UserActiveSession_UserMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="HMSModel.FK_UserLogin_UserMaster" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,17 @@
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\bin\Debug\netstandard2.0\HMS.Security.deps.json
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\bin\Debug\netstandard2.0\HMS.Security.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\bin\Debug\netstandard2.0\HMS.Security.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.csproj.CoreCompileInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.AssemblyInfoInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.AssemblyInfo.cs
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.csprojAssemblyReference.cache
+E:\HMS\HMS\HMS.Security\bin\Debug\netstandard2.0\HMS.Security.deps.json
+E:\HMS\HMS\HMS.Security\bin\Debug\netstandard2.0\HMS.Security.dll
+E:\HMS\HMS\HMS.Security\bin\Debug\netstandard2.0\HMS.Security.pdb
+E:\HMS\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.csproj.CoreCompileInputs.cache
+E:\HMS\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.AssemblyInfoInputs.cache
+E:\HMS\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.AssemblyInfo.cs
+E:\HMS\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.dll
+E:\HMS\HMS\HMS.Security\obj\Debug\netstandard2.0\HMS.Security.pdb

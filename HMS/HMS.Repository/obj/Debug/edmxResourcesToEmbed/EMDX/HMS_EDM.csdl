@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HMSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BedTypeMaster">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BedTypeCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BedTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyUniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ActiveStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTimeOffset" Precision="7" />
+    <NavigationProperty Name="CompanyMaster" Relationship="Self.FK_BedTypeMaster_CompanyMaster" FromRole="BedTypeMaster" ToRole="CompanyMaster" />
+  </EntityType>
+  <EntityType Name="CompanyMaster">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Website" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="ActiveStatus" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <NavigationProperty Name="BedTypeMasters" Relationship="Self.FK_BedTypeMaster_CompanyMaster" FromRole="CompanyMaster" ToRole="BedTypeMaster" />
+    <NavigationProperty Name="RoomTypeMasters" Relationship="Self.FK_RoomTypeMaster_CompanyMaster" FromRole="CompanyMaster" ToRole="RoomTypeMaster" />
+    <NavigationProperty Name="UserMasters" Relationship="Self.FK_UserMaster_CompanyMaster" FromRole="CompanyMaster" ToRole="UserMaster" />
+  </EntityType>
+  <EntityType Name="RoomTypeMaster">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RoomTypeCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="RoomTypeName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyUniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ActiveStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTimeOffset" Precision="7" />
+    <NavigationProperty Name="CompanyMaster" Relationship="Self.FK_RoomTypeMaster_CompanyMaster" FromRole="RoomTypeMaster" ToRole="CompanyMaster" />
+  </EntityType>
+  <EntityType Name="UserActiveSession">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserUniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SessionToken" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SessionStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ActiveStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Browser" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Latitude" Type="Decimal" Precision="18" Scale="6" />
+    <Property Name="Longitude" Type="Decimal" Precision="18" Scale="6" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="UserMaster" Relationship="Self.FK_UserActiveSession_UserMaster" FromRole="UserActiveSession" ToRole="UserMaster" />
+  </EntityType>
+  <EntityType Name="UserLogin">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="KeyPass" Type="String" MaxLength="500" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="UserUniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LockStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ActiveStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CreatedDate" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedDate" Type="DateTimeOffset" Precision="7" />
+    <NavigationProperty Name="UserMaster" Relationship="Self.FK_UserLogin_UserMaster" FromRole="UserLogin" ToRole="UserMaster" />
+  </EntityType>
+  <EntityType Name="UserMaster">
+    <Key>
+      <PropertyRef Name="UniqueID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="CompanyUniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ActiveStatus" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="MiddleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MobileNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EmailID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Designation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ModifiedBy" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CreatedDate" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <Property Name="ModifiedDate" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <NavigationProperty Name="CompanyMaster" Relationship="Self.FK_UserMaster_CompanyMaster" FromRole="UserMaster" ToRole="CompanyMaster" />
+    <NavigationProperty Name="UserActiveSessions" Relationship="Self.FK_UserActiveSession_UserMaster" FromRole="UserMaster" ToRole="UserActiveSession" />
+    <NavigationProperty Name="UserLogins" Relationship="Self.FK_UserLogin_UserMaster" FromRole="UserMaster" ToRole="UserLogin" />
+  </EntityType>
+  <EntityType Name="UserSessionHistory">
+    <Key>
+      <PropertyRef Name="ID" />
+      <PropertyRef Name="UserUniqueID" />
+      <PropertyRef Name="SessionID" />
+      <PropertyRef Name="LoginTime" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserUniqueID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SessionID" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LoginTime" Type="DateTimeOffset" Nullable="false" Precision="7" />
+    <Property Name="LogoutTime" Type="DateTimeOffset" Precision="7" />
+    <Property Name="SessionToken" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="IPAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Browser" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Latitude" Type="Decimal" Precision="18" Scale="6" />
+    <Property Name="Longitude" Type="Decimal" Precision="18" Scale="6" />
+  </EntityType>
+  <Association Name="FK_BedTypeMaster_CompanyMaster">
+    <End Role="CompanyMaster" Type="Self.CompanyMaster" Multiplicity="1" />
+    <End Role="BedTypeMaster" Type="Self.BedTypeMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompanyMaster">
+        <PropertyRef Name="UniqueID" />
+      </Principal>
+      <Dependent Role="BedTypeMaster">
+        <PropertyRef Name="CompanyUniqueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RoomTypeMaster_CompanyMaster">
+    <End Role="CompanyMaster" Type="Self.CompanyMaster" Multiplicity="1" />
+    <End Role="RoomTypeMaster" Type="Self.RoomTypeMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompanyMaster">
+        <PropertyRef Name="UniqueID" />
+      </Principal>
+      <Dependent Role="RoomTypeMaster">
+        <PropertyRef Name="CompanyUniqueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserMaster_CompanyMaster">
+    <End Role="CompanyMaster" Type="Self.CompanyMaster" Multiplicity="1" />
+    <End Role="UserMaster" Type="Self.UserMaster" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="CompanyMaster">
+        <PropertyRef Name="UniqueID" />
+      </Principal>
+      <Dependent Role="UserMaster">
+        <PropertyRef Name="CompanyUniqueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserActiveSession_UserMaster">
+    <End Role="UserMaster" Type="Self.UserMaster" Multiplicity="1" />
+    <End Role="UserActiveSession" Type="Self.UserActiveSession" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserMaster">
+        <PropertyRef Name="UniqueID" />
+      </Principal>
+      <Dependent Role="UserActiveSession">
+        <PropertyRef Name="UserUniqueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserLogin_UserMaster">
+    <End Role="UserMaster" Type="Self.UserMaster" Multiplicity="1" />
+    <End Role="UserLogin" Type="Self.UserLogin" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserMaster">
+        <PropertyRef Name="UniqueID" />
+      </Principal>
+      <Dependent Role="UserLogin">
+        <PropertyRef Name="UserUniqueID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="HMSEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BedTypeMasters" EntityType="Self.BedTypeMaster" />
+    <EntitySet Name="CompanyMasters" EntityType="Self.CompanyMaster" />
+    <EntitySet Name="RoomTypeMasters" EntityType="Self.RoomTypeMaster" />
+    <EntitySet Name="UserActiveSessions" EntityType="Self.UserActiveSession" />
+    <EntitySet Name="UserLogins" EntityType="Self.UserLogin" />
+    <EntitySet Name="UserMasters" EntityType="Self.UserMaster" />
+    <EntitySet Name="UserSessionHistories" EntityType="Self.UserSessionHistory" />
+    <AssociationSet Name="FK_BedTypeMaster_CompanyMaster" Association="Self.FK_BedTypeMaster_CompanyMaster">
+      <End Role="CompanyMaster" EntitySet="CompanyMasters" />
+      <End Role="BedTypeMaster" EntitySet="BedTypeMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RoomTypeMaster_CompanyMaster" Association="Self.FK_RoomTypeMaster_CompanyMaster">
+      <End Role="CompanyMaster" EntitySet="CompanyMasters" />
+      <End Role="RoomTypeMaster" EntitySet="RoomTypeMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserMaster_CompanyMaster" Association="Self.FK_UserMaster_CompanyMaster">
+      <End Role="CompanyMaster" EntitySet="CompanyMasters" />
+      <End Role="UserMaster" EntitySet="UserMasters" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserActiveSession_UserMaster" Association="Self.FK_UserActiveSession_UserMaster">
+      <End Role="UserMaster" EntitySet="UserMasters" />
+      <End Role="UserActiveSession" EntitySet="UserActiveSessions" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserLogin_UserMaster" Association="Self.FK_UserLogin_UserMaster">
+      <End Role="UserMaster" EntitySet="UserMasters" />
+      <End Role="UserLogin" EntitySet="UserLogins" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

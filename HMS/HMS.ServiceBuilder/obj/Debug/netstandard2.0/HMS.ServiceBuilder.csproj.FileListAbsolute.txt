@@ -1,0 +1,10 @@
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\bin\Debug\netstandard2.0\HMS.ServiceBuilder.deps.json
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\bin\Debug\netstandard2.0\HMS.ServiceBuilder.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\bin\Debug\netstandard2.0\HMS.ServiceBuilder.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ServiceBuilder.csproj.CoreCompileInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ServiceBuilder.AssemblyInfoInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ServiceBuilder.AssemblyInfo.cs
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ServiceBuilder.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ServiceBuilder.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ServiceBuilder.csprojAssemblyReference.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.ServiceBuilder\bin\Debug\netstandard2.0\HMS.ServiceBuilder.dll.config

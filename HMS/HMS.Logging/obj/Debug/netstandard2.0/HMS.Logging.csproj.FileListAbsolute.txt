@@ -1,0 +1,17 @@
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\bin\Debug\netstandard2.0\HMS.Logging.deps.json
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\bin\Debug\netstandard2.0\HMS.Logging.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\bin\Debug\netstandard2.0\HMS.Logging.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.csproj.CoreCompileInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.AssemblyInfoInputs.cache
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.AssemblyInfo.cs
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.dll
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.pdb
+C:\Users\krunal.naik\source\repos\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.csprojAssemblyReference.cache
+E:\HMS\HMS\HMS.Logging\bin\Debug\netstandard2.0\HMS.Logging.deps.json
+E:\HMS\HMS\HMS.Logging\bin\Debug\netstandard2.0\HMS.Logging.dll
+E:\HMS\HMS\HMS.Logging\bin\Debug\netstandard2.0\HMS.Logging.pdb
+E:\HMS\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.csproj.CoreCompileInputs.cache
+E:\HMS\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.AssemblyInfoInputs.cache
+E:\HMS\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.AssemblyInfo.cs
+E:\HMS\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.dll
+E:\HMS\HMS\HMS.Logging\obj\Debug\netstandard2.0\HMS.Logging.pdb
