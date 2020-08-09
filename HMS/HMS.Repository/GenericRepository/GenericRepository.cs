@@ -8,32 +8,26 @@ namespace HMS.Repository.GenericRepository
     public abstract class GenericRepository<T> : IGenericRepository<T>
         where T : class
     {
-        private readonly IDbSet<T> dbset;
-
         protected GenericRepository(DbContext context)
         {
             _entities = context;
-            dbset = context.Set<T>();
+            Dbset = context.Set<T>();
         }
 
         protected DbContext _entities { get; set; }
 
-        protected IDbSet<T> Dbset
-        {
-            get
-            {
-                return dbset;
-            }
-        }
+        protected IDbSet<T> Dbset { get; }
 
         public virtual IQueryable<T> GetAll()
         {
             return Dbset;
         }
 
-        public IEnumerable<T> FindBy(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
+        public IQueryable<T> GetBy(System.Linq.Expressions.Expression<Func<T, bool>> predicate)
         {
-            IEnumerable<T> query = Dbset.Where(predicate).AsEnumerable();
+
+            IQueryable<T> query = Dbset.Where(predicate).AsQueryable();
+
             return query;
         }
 
@@ -52,10 +46,9 @@ namespace HMS.Repository.GenericRepository
             _entities.Entry(entity).State = System.Data.Entity.EntityState.Modified;
         }
 
-        public virtual void Save()
+        public virtual int Save()
         {
-
-            _entities.SaveChanges();
+           return _entities.SaveChanges();
         }
     }
 }

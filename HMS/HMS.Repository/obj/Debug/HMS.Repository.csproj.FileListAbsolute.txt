@@ -1,11 +1,12 @@
 E:\HMS\HMS\HMS.Repository\obj\Debug\HMS.Repository.csproj.CoreCompileInputs.cache
-E:\HMS\HMS\HMS.Repository\bin\Debug\HMS.Repository.exe.config
-E:\HMS\HMS\HMS.Repository\bin\Debug\HMS.Repository.exe
 E:\HMS\HMS\HMS.Repository\bin\Debug\HMS.Repository.pdb
 E:\HMS\HMS\HMS.Repository\bin\Debug\EntityFramework.dll
 E:\HMS\HMS\HMS.Repository\bin\Debug\EntityFramework.SqlServer.dll
 E:\HMS\HMS\HMS.Repository\bin\Debug\EntityFramework.xml
 E:\HMS\HMS\HMS.Repository\bin\Debug\EntityFramework.SqlServer.xml
 E:\HMS\HMS\HMS.Repository\obj\Debug\HMS.Repository.csproj.CopyComplete
-E:\HMS\HMS\HMS.Repository\obj\Debug\HMS.Repository.exe
 E:\HMS\HMS\HMS.Repository\obj\Debug\HMS.Repository.pdb
+E:\HMS\HMS\HMS.Repository\bin\Debug\HMS.Repository.dll.config
+E:\HMS\HMS\HMS.Repository\bin\Debug\HMS.Repository.dll
+E:\HMS\HMS\HMS.Repository\obj\Debug\HMS.Repository.dll
+E:\HMS\HMS\HMS.Repository\obj\Debug\HMS.Repository.csprojAssemblyReference.cache

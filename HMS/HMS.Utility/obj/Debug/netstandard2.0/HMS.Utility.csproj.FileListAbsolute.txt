@@ -15,3 +15,4 @@ E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.AssemblyInfoInputs.c
 E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.AssemblyInfo.cs
 E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.dll
 E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.pdb
+E:\HMS\HMS\HMS.Utility\obj\Debug\netstandard2.0\HMS.Utility.csprojAssemblyReference.cache

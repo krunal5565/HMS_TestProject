@@ -49,8 +49,14 @@
     <Reference Include="Autofac, Version=5.2.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.5.2.0\lib\net461\Autofac.dll</HintPath>
     </Reference>
+    <Reference Include="Autofac.Configuration, Version=5.1.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.Configuration.5.1.0\lib\net461\Autofac.Configuration.dll</HintPath>
+    </Reference>
     <Reference Include="Autofac.Integration.Mvc, Version=5.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
       <HintPath>..\packages\Autofac.Mvc5.5.0.0\lib\net461\Autofac.Integration.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper, Version=10.0.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.10.0.0\lib\net461\AutoMapper.dll</HintPath>
     </Reference>
     <Reference Include="CommonServiceLocator, Version=2.0.5.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
       <HintPath>..\packages\CommonServiceLocator.2.0.5\lib\net46\CommonServiceLocator.dll</HintPath>
@@ -171,14 +177,6 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="BusinessLogic\ServicePattern\IBedTypeMasterService.cs" />
-    <Compile Include="BusinessLogic\ServicePattern\ICompanyMasterService.cs" />
-    <Compile Include="BusinessLogic\ServicePattern\IRoomTypeMasterService.cs" />
-    <Compile Include="BusinessLogic\ServicePattern\IUserMasterService.cs" />
-    <Compile Include="BusinessLogic\Services\BedTypeMasterService.cs" />
-    <Compile Include="BusinessLogic\Services\CompanyMasterService.cs" />
-    <Compile Include="BusinessLogic\Services\RoomTypeMasterService.cs" />
-    <Compile Include="BusinessLogic\Services\UserMasterService.cs" />
     <Compile Include="Controllers\TypesController.cs" />
     <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Controllers\CompanyController.cs" />
@@ -187,6 +185,11 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Helpers\ErrorCodes.cs" />
+    <Compile Include="Helpers\HMSLoginSessions.cs" />
+    <Compile Include="Helpers\UtilityClasses\AutoMapper.cs" />
+    <Compile Include="Managers\TypeManager.cs" />
+    <Compile Include="Managers\CompanyManager.cs" />
+    <Compile Include="Managers\UserManager.cs" />
     <Compile Include="Models\BaseClass.cs" />
     <Compile Include="Models\BedTypeModel.cs" />
     <Compile Include="Models\CompanyModel.cs" />
@@ -257,6 +260,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\HMS.BusinessPattern\HMS.BusinessPattern.csproj">
+      <Project>{f055719b-1119-48f1-bc45-559b42c8d593}</Project>
+      <Name>HMS.BusinessPattern</Name>
+    </ProjectReference>
     <ProjectReference Include="..\HMS.Repository\HMS.Repository.csproj">
       <Project>{5de060fa-621c-4e20-bb82-b6b39d0f9d29}</Project>
       <Name>HMS.Repository</Name>

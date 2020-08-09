@@ -6,7 +6,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5DE060FA-621C-4E20-BB82-B6B39D0F9D29}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <RootNamespace>HMS.Repository</RootNamespace>
     <AssemblyName>HMS.Repository</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -34,6 +34,9 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
@@ -82,6 +85,7 @@
     <Compile Include="EMDX\RoomTypeMaster.cs">
       <DependentUpon>HMS_EDM.tt</DependentUpon>
     </Compile>
+    <Compile Include="EMDX\HMSEntities.cs" />
     <Compile Include="EMDX\UserActiveSession.cs">
       <DependentUpon>HMS_EDM.tt</DependentUpon>
     </Compile>
@@ -101,10 +105,16 @@
     <Compile Include="RepositoryPattern\IBedTypeMasterRepository.cs" />
     <Compile Include="RepositoryPattern\ICompanyMasterRoomRepository.cs" />
     <Compile Include="RepositoryPattern\IRoomTypeMasterRepository.cs" />
+    <Compile Include="RepositoryPattern\IUserActiveSessionRepository.cs" />
+    <Compile Include="RepositoryPattern\IUserLoginRepository.cs" />
+    <Compile Include="RepositoryPattern\IUserSessionHistoryRepository.cs" />
     <Compile Include="RepositoryPattern\IUserMasterRepository.cs" />
     <Compile Include="Repository\BedTypeMasterRepository.cs" />
     <Compile Include="Repository\CompanyMasterRepository.cs" />
     <Compile Include="Repository\RoomTypeMasterRepository.cs" />
+    <Compile Include="Repository\UserLoginRepository.cs" />
+    <Compile Include="Repository\UserActiveSessionRepository.cs" />
+    <Compile Include="Repository\UserSessionHistoryRepository.cs" />
     <Compile Include="Repository\UserMasterRepository.cs" />
   </ItemGroup>
   <ItemGroup>

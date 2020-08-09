@@ -17,3 +17,4 @@ E:\HMS\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ThirdPartyServices.As
 E:\HMS\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ThirdPartyServices.AssemblyInfo.cs
 E:\HMS\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ThirdPartyServices.dll
 E:\HMS\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ThirdPartyServices.pdb
+E:\HMS\HMS\HMS.ServiceBuilder\obj\Debug\netstandard2.0\HMS.ThirdPartyServices.csprojAssemblyReference.cache

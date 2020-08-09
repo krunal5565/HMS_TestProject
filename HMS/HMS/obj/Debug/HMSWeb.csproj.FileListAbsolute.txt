@@ -358,11 +358,9 @@ E:\HMS\HMS\HMS\bin\System.Xml.XPath.dll
 E:\HMS\HMS\HMS\bin\System.Xml.XPath.XDocument.dll
 E:\HMS\HMS\HMS\bin\Antlr3.Runtime.dll
 E:\HMS\HMS\HMS\bin\Autofac.dll
-E:\HMS\HMS\HMS\bin\Autofac.Integration.Mvc.dll
 E:\HMS\HMS\HMS\bin\CommonServiceLocator.dll
 E:\HMS\HMS\HMS\bin\EntityFramework.dll
 E:\HMS\HMS\HMS\bin\EntityFramework.SqlServer.dll
-E:\HMS\HMS\HMS\bin\HMS.Repository.exe
 E:\HMS\HMS\HMS\bin\Microsoft.Bcl.AsyncInterfaces.dll
 E:\HMS\HMS\HMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 E:\HMS\HMS\HMS\bin\Microsoft.Extensions.Configuration.Abstractions.dll
@@ -388,10 +386,8 @@ E:\HMS\HMS\HMS\bin\System.Web.WebPages.dll
 E:\HMS\HMS\HMS\bin\System.Web.WebPages.Razor.dll
 E:\HMS\HMS\HMS\bin\WebGrease.dll
 E:\HMS\HMS\HMS\bin\HMS.Repository.pdb
-E:\HMS\HMS\HMS\bin\HMS.Repository.exe.config
 E:\HMS\HMS\HMS\bin\Autofac.pdb
 E:\HMS\HMS\HMS\bin\Autofac.xml
-E:\HMS\HMS\HMS\bin\Autofac.Integration.Mvc.xml
 E:\HMS\HMS\HMS\bin\EntityFramework.xml
 E:\HMS\HMS\HMS\bin\EntityFramework.SqlServer.xml
 E:\HMS\HMS\HMS\bin\Microsoft.Bcl.AsyncInterfaces.xml
@@ -420,3 +416,14 @@ E:\HMS\HMS\HMS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 E:\HMS\HMS\HMS\obj\Debug\HMSWeb.csproj.CopyComplete
 E:\HMS\HMS\HMS\obj\Debug\HMS.Web.dll
 E:\HMS\HMS\HMS\obj\Debug\HMS.Web.pdb
+E:\HMS\HMS\HMS\bin\HMS.Repository.dll
+E:\HMS\HMS\HMS\bin\HMS.Repository.dll.config
+E:\HMS\HMS\HMS\bin\Autofac.Configuration.dll
+E:\HMS\HMS\HMS\bin\Autofac.Configuration.pdb
+E:\HMS\HMS\HMS\bin\Autofac.Configuration.xml
+E:\HMS\HMS\HMS\bin\Autofac.Integration.Mvc.dll
+E:\HMS\HMS\HMS\bin\Autofac.Integration.Mvc.xml
+E:\HMS\HMS\HMS\bin\AutoMapper.dll
+E:\HMS\HMS\HMS\bin\HMS.BusinessPattern.dll
+E:\HMS\HMS\HMS\bin\HMS.BusinessPattern.pdb
+E:\HMS\HMS\HMS\bin\AutoMapper.xml

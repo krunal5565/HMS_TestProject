@@ -8,7 +8,7 @@ namespace HMS.Modules
     {
         protected override void Load(ContainerBuilder builder)
         {
-            builder.RegisterAssemblyTypes(Assembly.Load("HMS.Web"))
+            builder.RegisterAssemblyTypes(Assembly.Load("HMS.BusinessPattern"))
                .Where(t => t.Name.EndsWith("Service"))
                .PropertiesAutowired()
                .AsImplementedInterfaces()

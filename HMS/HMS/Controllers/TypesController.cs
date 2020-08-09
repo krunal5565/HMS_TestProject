@@ -1,4 +1,4 @@
-﻿using Autofac;
+﻿using HMS.Managers;
 using HMS.Models;
 using HMS.Web.ServicePattern;
 
@@ -10,34 +10,25 @@ namespace HMS.Controllers
     {
         private readonly IBedTypeMasterService _IBedTypeMasterService;
         private readonly IRoomTypeMasterService _IRoomTypeMasterService;
-        private static IContainer Container { get; set; }
+        public TypeManager typeManager = null;
 
         public  TypesController()
         {
-            Container = AutofacConfig.RegisterAutofac();
-            using (var scope = Container.BeginLifetimeScope())
-            {
-                _IBedTypeMasterService = scope.Resolve<IBedTypeMasterService>();
-            }
+           
         }
-        public TypesController(IBedTypeMasterService IBedTypeMasterService)
+        public TypesController(IBedTypeMasterService IBedTypeMasterService, IRoomTypeMasterService IRoomTypeMasterService)
         {
-            _IBedTypeMasterService = IBedTypeMasterService; 
+            _IBedTypeMasterService = IBedTypeMasterService;
+            _IRoomTypeMasterService = IRoomTypeMasterService; 
         }
-        //public TypesController()
-        //{
-        //    Container = AutofacConfig.RegisterAutofac();
-        //    using (var scope = Container.BeginLifetimeScope())
-        //    {
-        //        _IBedTypeMasterService = scope.Resolve<IBedTypeMasterService>();
-        //    }
-        //}
+      
 
         public ActionResult SaveBedType(BedTypeModel model)
         {
            if(model != null)
             {
-                _IBedTypeMasterService.Save(model);
+                typeManager = new TypeManager(_IBedTypeMasterService, _IRoomTypeMasterService); 
+                typeManager.SaveBedType(model);
             }
            
             return View();
@@ -52,7 +43,8 @@ namespace HMS.Controllers
         { 
              if(model != null)
             {
-                _IRoomTypeMasterService.Save(model);
+                typeManager = new TypeManager(_IBedTypeMasterService, _IRoomTypeMasterService);
+                typeManager.SaveRoomType(model);
             }
             return View();
         }
