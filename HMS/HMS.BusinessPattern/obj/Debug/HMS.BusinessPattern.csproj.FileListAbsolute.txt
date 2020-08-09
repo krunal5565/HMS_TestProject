@@ -1,0 +1,14 @@
+E:\HMS\HMS\HMS.BusinessPattern\obj\Debug\HMS.BusinessPattern.csproj.CoreCompileInputs.cache
+E:\HMS\HMS\HMS.BusinessPattern\obj\Debug\HMS.BusinessPattern.csprojAssemblyReference.cache
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\HMS.BusinessPattern.dll
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\HMS.BusinessPattern.pdb
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\AutoMapper.dll
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\HMS.Repository.dll
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\EntityFramework.dll
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\HMS.Repository.pdb
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\HMS.Repository.dll.config
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\AutoMapper.xml
+E:\HMS\HMS\HMS.BusinessPattern\bin\Debug\EntityFramework.xml
+E:\HMS\HMS\HMS.BusinessPattern\obj\Debug\HMS.BusinessPattern.csproj.CopyComplete
+E:\HMS\HMS\HMS.BusinessPattern\obj\Debug\HMS.BusinessPattern.dll
+E:\HMS\HMS\HMS.BusinessPattern\obj\Debug\HMS.BusinessPattern.pdb
